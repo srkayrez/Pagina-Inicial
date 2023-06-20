@@ -1,3 +1,4 @@
+
 let atalhos = [
     {
         titulo: 'Youtube',
@@ -45,12 +46,7 @@ let atalhos = [
         link: 'https://teams.microsoft.com/'
     }
 ];
-let calendar = [
-    {
-        calendario: '',
-        eventos: ''
-    }
-]
+
 
 
 window.onload = function() {
