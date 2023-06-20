@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.atalhos{
+    margin: 5%;
+}
+
+.atalhos__grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2em;
+}
+
+.cards__atalhos{
+    text-align: center;
+}
+
+.calendar{
+    text-align: center;
+}
+
+#compormissos{
+    position: absolute;
+    right: 0;
+}
