@@ -113,3 +113,8 @@ p{
     vertical-align: middle;
   }
   
+  #help{
+    position: fixed;
+    bottom:0;
+    text-align: center;
+  }
