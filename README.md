@@ -4,7 +4,7 @@ Projeto desenvolvido para agregar nos estudos de html css e js
 # 🚨 Site ainda esta em desenvolvimento 🚨
 
 ## Como usar
-- Criar um repositorio privado no seu git e subir um arquivo.json tendo a seguinte estrutura:
+- Crie um repositorio privado no seu git e subir um arquivo.json tendo a seguinte estrutura:
 ```
 {
     "atalhos": [
