@@ -1,5 +1,18 @@
+
 body{
     margin: 0;
+}
+
+.config__api{
+    position: fixed;
+    top:0;
+    right: 0;
+    border: none;
+    background-color: none;
+    margin-right: 300px;
+}
+.config__api :hover {
+    cursor: pointer;
 }
 
 .atalhos{
@@ -10,17 +23,93 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 2em;
+    margin-right: 300px;
 }
 
 .cards__atalhos{
     text-align: center;
+    border-radius: 15px;
+    background-color: white;
 }
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.cards__atalhos img {
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .cards__atalhos p.titulo {
+    visibility: hidden;
+    position: relative;
+    top: -50px;
+    transition: top 0.3s ease;
+  }
+  
+  .cards__atalhos:hover img {
+    transform: translateY(-20px);
+  }
+  
+  .cards__atalhos:hover p.titulo {
+    visibility: visible;
+    top: -30px;
+  }
 
 .calendar{
     text-align: center;
 }
 
+
 #compormissos{
-    position: absolute;
+    position: fixed;
     right: 0;
+    top:0;
+    height: 100vh;
 }
+#calendar{
+    position:fixed;
+}
+
+.toggle {
+    width: 50px;
+    height: 24px;
+    background-color: gray;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .toggle input[type="checkbox"] {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .toggle label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s;
+    cursor: pointer;
+  }
+  
+  .toggle input[type="checkbox"]:checked + label {
+    left: 28px;
+  }
+
+  #text-calendario{
+    margin-left: 3.3em;
+    vertical-align: middle;
+  }
+  
