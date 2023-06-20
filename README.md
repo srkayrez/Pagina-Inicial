@@ -22,6 +22,17 @@ Projeto desenvolvido para agregar nos estudos de html css e js
 }
 ```
 
+### Obentendo o link da agenda:
+- Acesse seu <a href="">google calendar</a>
+- Vá para ```configurações > Configurações das minhas agendas > {nome da agenda} > Integrar agenda.```
+- Copie o link que esta dentro do campo "Incorporar codigo"
+- 🚨apenas o link 🚨
+
+![image](https://github.com/srkayrez/Pagina-Inicial/assets/78885438/37f3cabb-55ce-4245-a4f1-ddcbc71f5921)
+
+<hr/>
+
+
 - Fazer o deploy do seu repositorio usando github pages;
 - Acessar o link do deply ```name.github.io/repo/``` e no final do link add o nome do arquivo + extenção ex: ```name.github.io/repo/data.json;```
 - Após o deploy ser feito, você tera acesso a um retorno do tipo json por meio dessa url ```name.github.io/repo/data.json```
