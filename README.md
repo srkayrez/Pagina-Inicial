@@ -27,6 +27,7 @@ Projeto desenvolvido para agregar nos estudos de html css e js
 - Vá para ```configurações > Configurações das minhas agendas > {nome da agenda} > Integrar agenda.```
 - Copie o link que esta dentro do campo "Incorporar codigo"
 - 🚨apenas o link 🚨
+- No botao personalizar você consegue gerar o link para os proximos eventos;
 
 ![image](https://github.com/srkayrez/Pagina-Inicial/assets/78885438/37f3cabb-55ce-4245-a4f1-ddcbc71f5921)
 
